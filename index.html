@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset=utf-8 />
-<title>A simple map</title>
+<title>OM NOM NOM Pizza</title>
 <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
 <script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.9/mapbox.js'></script>
 <link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.9/mapbox.css' rel='stylesheet' />
@@ -16,25 +16,23 @@
 <script>
 L.mapbox.accessToken = 'pk.eyJ1IjoiY3J1emluNzN2dyIsImEiOiI3RDdhUi1NIn0.jaEqREZw7QQMRafKPNBdmA';
 var map = L.mapbox.map('map', 'cruzin73vw.LAMart')
-    .setView([0, 0], 15);
+    .setView([0.026, 0.02097], 16);
     
     
-
 var myLayer = L.mapbox.featureLayer().addTo(map);
-
 var geoJson = [{
     "type": "Feature",
     "geometry": {
         "type": "Point",
-        "coordinates": [0.02, 0.02]
+        "coordinates": [0.0213, 0.035]
     },
     "properties": {
         "title": "OM NOM NOM PIZZA Location",
         "icon": {
-            "iconUrl": "/images/icon_01.png",
-            "iconSize": [50, 50], // size of the icon
-            "iconAnchor": [25, 25], // point of the icon which will correspond to marker's location
-            "popupAnchor": [0, -25], // point from which the popup should open relative to the iconAnchor
+            "iconUrl": "images/icon-01.png",
+            "iconSize": [150, 150], // size of the icon
+            "iconAnchor": [75, 75], // point of the icon which will correspond to marker's location
+            "popupAnchor": [0, -75], // point from which the popup should open relative to the iconAnchor
             "className": "dot"
         }
     }
@@ -47,23 +45,20 @@ var geoJson = [{
     "properties": {
         "title": "Maptime Bear's Location",
         "icon": {
-            "iconUrl": "/images/icon_02.png",
-            "iconSize": [100, 100],
-            "iconAnchor": [50, 50],
-            "popupAnchor": [0, -55],
+            "iconUrl": "images/icon-02.png",
+            "iconSize": [150, 150],
+            "iconAnchor": [75, 75],
+            "popupAnchor": [0, -75],
             "className": "dot"
         }
     }
 }];
-
 // Set a custom icon on each marker based on feature properties.
 myLayer.on('layeradd', function(e) {
     var marker = e.layer,
         feature = marker.feature;
-
     marker.setIcon(L.icon(feature.properties.icon));
 });
-
 // Add features to the map.
 myLayer.setGeoJSON(geoJson);    
 </script>
