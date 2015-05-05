@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/cityhubla/SketchupToMapboxJS/master/images/cover.jpg" width="50%" />
+<img src="https://raw.githubusercontent.com/cityhubla/SketchupToMapboxJS/master/images/cover.jpg" />
 # Sketchup! or How I mapped the Maptime Bear's Home
 
 Vectoria, the Maptime Bear needs a home, so let's build one, and map it out!
