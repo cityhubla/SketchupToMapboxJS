@@ -12,6 +12,7 @@ Here is the scope of what we are gonna do
  * Create a map of the Bear's home using, Mapbox's Tilemill, to be uploaded to a Mapbox Account
  * Create a simple map with markers using Mapbox.js
  
+<img src="https://raw.githubusercontent.com/cityhubla/SketchupToMapboxJS/master/images/workflow_1-01.png" width="100%"/>
 Once you get the hang of these methods, you can probably map out a galaxy from NASA's images, or your minecraft creation. 
 
 
