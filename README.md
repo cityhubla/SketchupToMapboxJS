@@ -11,6 +11,8 @@ Here is the scope of what we are gonna do
  * Create a non-georeferenced geotiff using QGIS's Georeferencer Plugin
  * Create a map of the Bear's home using, Mapbox's Tilemill, to be uploaded to a Mapbox Account
  * Create a simple map with markers using Mapbox.js
+ 
+Once you get the hang of these methods, you can probably map out a galaxy from NASA's images, or your minecraft creation. 
 
 
 
