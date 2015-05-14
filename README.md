@@ -1,7 +1,7 @@
 <img src="https://raw.githubusercontent.com/cityhubla/SketchupToMapboxJS/master/images/coverpage.jpg" />
 # Sketchup! or How I mapped the Maptime Bear's Home
 
-Vectoria, the Maptime Bear needs a home, so let's build one, and map it out!
+Vectoria, the Maptime Bear lives on a floating island above California, let's map it out!
 
 Here is the scope of what we are gonna do
 
