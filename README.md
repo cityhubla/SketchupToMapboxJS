@@ -3,6 +3,9 @@
 
 Vectoria, the Maptime Bear needs a home, so let's build one, and map it out!
 
+[Checkout the presentation] (http://cityhubla.github.io/SketchupToMapboxJS/index_slide.html#0)
+[Checkout the map!](http://cityhubla.github.io/SketchupToMapboxJS/)
+
 Here is the scope of what we are gonna do
 
  * Use Sketchup to build a 3d environment of the Bear's home
